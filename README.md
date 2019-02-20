@@ -9,7 +9,6 @@ http://localhost:8080/swagger-ui.html#/news-controller.
 
 ### To Install and Run
 
->block quote
 
     mvn install
 And then run as a Java Application and navigate to 
