@@ -8,6 +8,8 @@ It exposes a rest api using Swagger which can be accessed here : http://localhos
 
 MySQL setup:
 
+CREATE database newsapi;
+
 CREATE TABLE `news` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(50) DEFAULT NULL,
