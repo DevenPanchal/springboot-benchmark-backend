@@ -33,4 +33,10 @@ public class NewService {
 	public void deleteNews(Long id) {
 		newsRepository.deleteById(id);
 	}
+	
+	public  List<News> getFilteredNews(String queryString)
+	{
+		return newsRepository.findByQueryString(queryString);
+	}
+	
 }
